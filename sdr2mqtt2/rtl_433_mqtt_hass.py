@@ -343,6 +343,7 @@ mappings = {
         "config": {
             "name": "Wind Direction",
             "unit_of_measurement": "°",
+            "state_class":"measurement",
             "value_template": "{{ value|float }}"
         }
     },
