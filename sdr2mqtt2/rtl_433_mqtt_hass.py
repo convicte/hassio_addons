@@ -342,8 +342,8 @@ mappings = {
         "object_suffix": "WD",
         "config": {
             "name": "Wind Direction",
-            "unit_of_measurement": "°",
             "state_class":"measurement",
+            "unit_of_measurement": "°",
             "value_template": "{{ value|float }}"
         }
     },
